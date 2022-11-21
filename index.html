@@ -33,7 +33,6 @@
                margin-left: auto;
           }
           .title {
-               margin-top: 30vh;
                margin-left: 30px;
                transition: all 3s ease-out;
                animation: stretch 1s;
@@ -136,6 +135,9 @@
           .navbar-toggler {
                margin-right: 5px;
                border: none;
+          }
+          .navbar {
+               background-color: rgb(246, 246, 246);
           }
           hr {
                border: 1px solid rgb(215, 215, 215);
@@ -242,6 +244,7 @@
 </head>
 <body>
      <div class="landing-screen">
+     <header style="position: fixed; width: 100%; z-index: 1; top: 0;">
           <nav class="navbar navbar-expand-lg navbar-light ml-auto" id="header">
                <a class="navbar-brand" href="index.html" style="color: rgb(0, 0, 0);">Sreehari Santhosh</a>
                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="flase" aria-label="Toggle navigation" style="width: 50px; padding-right: 55px">
@@ -277,10 +280,14 @@
                  </ul>
                </div>
              </nav>
-          <h1 class="title">Hello, <br>I am Sreehari</h1>
-          <p>Freelancer</p>
-          <br>
-          <button id="about-btn"><a href="#service">About</a></button>
+          </header>
+          <br><br><br><br><br><br><br><br><br><br><br>
+          <div class="details">
+               <h1 class="title">Hello, <br>I am Sreehari</h1>
+               <p>Freelancer</p>
+               <br>
+               <button id="about-btn"><a href="#service">About</a></button>
+          </div>
      </div>
      <br>
      <div id="service">
