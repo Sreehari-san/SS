@@ -24,7 +24,7 @@
                padding: 10;
           }
           .landing-screen {
-               background-image: url('https://cdn.pixabay.com/photo/2018/03/15/08/54/grid-3227459_960_720.jpg');
+               background-image: url('https://img.freepik.com/free-vector/white-elegant-texture-background-style_23-2148432200.jpg?size=626&ext=jpg&ga=GA1.2.1043746885.1669217085&semt=sph');
                height: 100vh;
                background-size: cover;
                background-repeat: no-repeat;
@@ -69,7 +69,7 @@
                opacity: 1;
           }
           .card {
-               width: 18rem; 
+               width: 20rem; 
                height: 20rem;
                box-shadow: 1px 1px 20px 3px rgb(236, 235, 235);
                border: none;
@@ -82,7 +82,7 @@
                justify-content: space-between;
           }
           #card1 {
-               margin-left: auto;
+               margin-left: auto;  
           }
           #card3 {
                margin-right: auto;
@@ -95,12 +95,7 @@
                     display: inline;
                }
                #card1 {
-                    margin-top: -20px;
-               }
-               .card {
-                    margin-left: auto;
-                    margin-right: auto;
-                    margin-top: 80px;
+                    margin-top: -2.0px;
                }
                #soon {
                     margin-top: 80px;
@@ -110,6 +105,102 @@
                }
                #project1 {
                     margin-top: 5px;
+               }
+               .content {
+                    display: inline;
+               }
+               .content img {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+               }
+               #about-card {
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: max-content;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-right: 50px;
+                    background-color: #2361cc;
+                    text-align: center;
+                    max-width: 500px;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    background-color: #2361cc;
+                    text-align: center;
+                    max-width: 400px;
+                    border-radius: 30px;
+                    box-shadow: 1px 1px 40px 2px #2361cc;
+                    margin-bottom: 80px;
+                    margin-top: 80px;
+               }
+          }
+          @media only screen and (min-width: 500px) {
+               #about-card {
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    height: max-content;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-right: 50px;
+                    background-color: #2361cc;
+                    text-align: center;
+                    max-width: 200px;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    background-color: #2361cc;
+                    text-align: center;
+                    border-radius: 30px;
+                    box-shadow: 1px 1px 40px 2px #2361cc;
+               }
+          }
+          @media only screen and (min-width: 440px) {
+               #about-card {
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: max-content;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    padding-right: 50px;
+                    background-color: #2361cc;
+                    text-align: center;
+                    max-width: 500px;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    background-color: #2361cc;
+                    text-align: center;
+                    max-width: 400px;
+                    border-radius: 30px;
+                    box-shadow: 1px 1px 40px 2px #2361cc;
+               }
+          }
+          @media only screen and (min-width: 950px) {
+               .content {
+                    display: flex;
+                    height: 600px;
+               }
+               .content img {
+                    margin-left: 60px;
+                    display: block;
+               }
+               #about-card {
+                    margin-left: auto;
+                    margin-right: auto;
+                    height: max-content;
+                    margin-top: auto;
+                    margin-bottom: auto;
+                    padding-top: 30px;
+                    padding-bottom: 30px;
+                    padding-right: 40px;
+                    background-color: #2363cc;
+                    text-align: center;
+                    max-width: 500px;
+                    border-radius: 30px;
+                    box-shadow: 1px 1px 40px 2px #2361cc;
+               }
+               #student-image {
+                    margin-left: auto;
+                    margin-right: 50px;
                }
           }
           #about-title {
@@ -240,6 +331,36 @@
           #dropdownMenuButton {
                color: black;
           }
+          .content p {
+               margin-top: auto;
+               margin-bottom: auto;
+               padding-left: 50px;
+               cursor: pointer;
+               color: white;
+               font-weight: 100;
+          }
+          .content p:hover {
+               color: rgb(68, 68, 68);
+               padding-left: 55px;
+               transition: all 0.3s ease-in-out;
+          }
+          .content img {
+               cursor: pointer;
+               width: 250px;
+          }
+          #web-image {
+               width: 330px;
+          }
+          #student-image {
+               width: 280px;
+          }
+          #other {
+               margin-top: -160px;
+               margin-left: auto;
+          }
+          #freelancer-image {
+               width: 300px;
+          }
      </style>
 </head>
 <body>
@@ -256,10 +377,10 @@
                      <a class="nav-link" href="#header" style="color: rgb(0, 0, 0);">Home</a>
                    </li>
                    <li class="nav-item">
-                     <a class="nav-link" href="#service" style="color: rgb(0, 0, 0);">About</a>
+                     <a class="nav-link" href="#service" style="color: rgb(0, 0, 0);">About Me</a>
                    </li>
                    <li class="nav-item">
-                    <a class="nav-link" href="#skills" style="color: rgb(0, 0, 0);">Skills</a>
+                    <a class="nav-link" href="#projects" style="color: rgb(0, 0, 0);">More About Me</a>
                   </li>
                   <div class="dropdown">
                     <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -267,7 +388,7 @@
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                          <li class="nav-item">
-                              <a class="nav-link" href="#projects" style="color: #111;">Projects</a>
+                              <a class="nav-link" href="#skills" style="color: #111;">Skills</a>
                          </li>
                          <li class="nav-item">
                               <a class="nav-link disabled" href="bot.html" style="color: grey;">Bot support (Coming Soon)</a>
@@ -293,68 +414,38 @@
      <div id="service">
           <h3 id="about-title">About Me</h3>
           <br>
-          <div class="container" id="service">
-               <div class="card" id="card1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
-                    <img src="https://cdn.pixabay.com/photo/2015/12/04/14/05/code-1076536_960_720.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-text">Web Developer</h5>
-                    <br>
-                    <p class="card-text text-secondary">I will try my best to give you best experience</p>
-                    </div>
-               </div>
-               <div class="card" data-aos="fade-up" data-aos-delay="300" data-aos-duration="2000">
-                    <img src="https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822__340.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-text">Student</h5>
-                    <br>
-                    <p class="card-text text-secondary">I am a 7th grade student</p>
-                    </div>
-               </div>
-               <div class="card" id="card3" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="500">
-                    <img src="https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_960_720.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-text">Freelancer</h5>
-                    <br>
-                    <p class="card-text text-secondary">I am a Static web developer</p>
-                    </div>
+          <div class="content">
+               <img data-aos="fade-right" data-aos-duration="2000" src="undraw_articles_wbpb.svg" alt="about-image">
+               <br><br>
+               <div id="about-card" data-aos="fade-right" data-aos-duration="1600">
+                    <p id="about-des">Helo My name is Sreehari.<br> I am from Ernakulam. <br> I am a 7th grade student. <br>I started web designing about 2yrs ago <br> and I am a Freelancer.</p>
                </div>
           </div>
-     </div>
-     <br><hr><br>
-     <h3 style="text-align: center;">Projects</h3>
-     <br>
+          <br><hr><br>
+     <h3 style="text-align: center;">More</h3>
      <section id="projects">
-          <div class="container">
-               <div class="card" id="project1" data-aos="fade-up" data-aos-duration="2000">
-                    <img src="Frame 1.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-text">Youtube UI Clone</h5>
-                    <br>
-                    <p class="card-text text-secondary">UI desgined with Figma</p>
-                    <a href=""></a>
-                    </div>
+          <div class="content" id="">
+               <img id="web-image" data-aos="fade-right" data-aos-duration="2000" src="undraw_design_notes_re_eklr.svg" alt="web-image">
+               <div id="about-card" data-aos="fade-right" data-aos-duration="1600">
+                    <p id="about-des">I will try my best to give you best experience</p>
                </div>
-               <div style="height: 22rem;" class="card" id="tamp" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
-                    <img src="https://cdn.pixabay.com/photo/2018/05/04/20/01/website-3374825_960_720.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                    <h5 class="card-text">Sliding-Header</h5>
-                    <br>
-                    <a class="card-link text-secondary" href="https://github.com/Sreehari-san/slider">Get Source code</a>
-                    <a class="card-link text-secondary" href="https://sreehari-san.github.io/slider-header">Preview</a>
-                    </div>
+          </div>
+          <hr>
+          <div class="content" id="student">
+               <div id="about-card" data-aos="fade-left" data-aos-duration="1600">
+                    <p id="student-des">I am a 7th grade student</p>
                </div>
-               <div class="card" id="soon" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="300">
-                    <h4>Coming soon...</h4>
-                    <br><hr>
-                    <div class="card-body">
-                    <h5 class="card-text">User LogIn</h5>
-                    <br>
-                    <p class="card-text text-secondary">80% completed <br><br> will be available at next update</p>
-                    </div>
+               <img id="student-image" data-aos="fade-left" data-aos-duration="2000" src="undraw_online_test_re_kyfx.svg" alt="web-image">
+          </div>
+          <hr>
+          <div class="content">
+               <img id="freelancer-image" data-aos="fade-right" data-aos-duration="2000" src="undraw_programming_re_kg9v.svg" alt="web-image">
+               <div id="about-card" data-aos="fade-right" data-aos-duration="1600">
+                    <p id="about-des">Static web developer</p>
                </div>
           </div>
      </section>
-     <br><br><hr><br>
+     <br><hr><br>
      <h3 style="text-align: center;">Skills</h3>
      <div class="more" id="skills">
           <br>
